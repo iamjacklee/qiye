@@ -13,4 +13,6 @@ class CnblogsSpider(scrapy.Spider):
 
         for paper in papers:
             title = paper.xpath('.//*[@class="postTitle"]/a/text()').extract_first()
+
+        print 'hello jacklee'
             
